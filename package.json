@@ -1,6 +1,6 @@
 {
   "name": "@e1011/core-vite-executor",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "description": "core-vite-executor for Core Vite App",
   "engines": {
     "node": ">=18 <19"
