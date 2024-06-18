@@ -99,7 +99,7 @@ let pathToRoutesConfig = path.resolve(process.cwd(), providedDirectory) || '';
    
     if (!pathToRoutesConfig) {
       // throw Error('Routes configuration `routes.config.json` is missing');
-      console.log(chalkPipe('red').bold('Routes configuration `routes.config.json` is missing'));
+      console.log(chalkPipe('orange').bold('Routes configuration `routes.config.json` is missing'));
       //process.exit(1);
     } else {
       console.log(chalkPipe('green').bold(`Found routes config in the provided directory: ${pathToRoutesConfig}`));
